@@ -1,0 +1,11 @@
+.iframe {
+  text-align-last: center;
+  margin: 20px;
+  width: 150%;
+  height: 150%;
+}
+iframe {
+  width: 50%;
+  height: 500px;
+  margin-top: 30px;
+}

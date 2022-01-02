@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 70px;
+  background-color: rgba(0, 0, 0, 0.99);
+  width: 100vw;
+}
+.header > img {
+  width: 150px;
+}
+input {
+  height: 40px;
+  padding: 10px;
+  place-self: center;
+  margin-right: 10px;
+  font-size: large;
+  border-radius: 8px;
+  border: 00.5px solid rgb(83, 4, 4);
+}
+button {
+  padding: 5px;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  border: 0.5px solid rgb(153, 0, 0);
+  margin-left: 10px;
+}
+button:hover {
+  filter: brightness(96%);
+}
+button > img {
+  width: 30px;
+  margin: 5px;
+  border: rgb(148, 148, 148);
+}
+.inputAndButton {
+  display: flex;
+}
